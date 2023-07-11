@@ -17,50 +17,144 @@ body {
     margin-top: 10px;
 }
 
-body, h1, h2, p, a, ul, li {
+body,
+h1,
+h2,
+p,
+a,
+ul,
+li {
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+
+header {
     background-color: #f5f5f5;
     padding: 20px;
-  }
-  
-  .header-content {
+}
+
+.header-content {
     display: flex;
     align-items: center;
-  }
-  
-  .header-image img {
+}
+
+.header-image img {
     width: 200px;
     height: auto;
-  }
-  
-  .header-text {
+}
+
+.header-text {
     margin-left: 20px;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 24px;
     margin-bottom: 10px;
-  }
-  
-  header p {
+}
+
+header p {
     font-size: 16px;
     color: #777;
-  }
-  
+}
+
 nav ul {
     list-style-type: none;
-  }
-  
-  nav ul li {
+}
+
+nav ul li {
     display: inline-block;
     margin-right: 10px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: #333;
-  }
+}
+
+.body-contentone,
+.body-contenttwo {
+    margin-left: 20%;
+    align-items: center;
+}
+
+.sectionone-images {
+    width: 200px;
+    height: auto;
+    padding: 1%;
+    margin: 2%;
+}
+
+.section-descriptionone {
+    color: #777;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.section-descriptiontwo {
+    width: 1922px;
+    height: 620px;
+    color: #777;
+    display: flex;
+    margin-left: 10%;
+}
+
+.sectiontwo-images {
+    width: 200px;
+    height: auto;
+    margin-left: 30%;
+}
+
+.section-titleone,
+.section-titletwo,
+.section-titlethree {
+    margin-left: 10%;
+}
+
+.signup-button {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+
+.sectionthree-images {
+    width: 200px;
+    height: auto;
+}
+
+.section-descriptionthree, .section-descriptionlast {
+    color: #777;
+    display: flex;
+    width: 600px;
+    margin-left: 10%;
+
+}
+
+.body-contentlast {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 1450px;
+    height: 450px;
+    border-radius: 8px;
+    padding: 140px 240px;
+}
+
+.section-titletlast {
+    margin-left: 10%;
+    
+}
+
+.email {
+    width: 500px;
+    height: 38px;
+    margin-left: 10%;
+}
