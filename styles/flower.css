@@ -1,0 +1,66 @@
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.shop-button {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+body, h1, h2, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-image img {
+    width: 200px;
+    height: auto;
+  }
+  
+  .header-text {
+    margin-left: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
