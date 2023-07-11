@@ -158,3 +158,13 @@ nav ul li a {
     height: 38px;
     margin-left: 10%;
 }
+.footer{
+    background-color: aliceblue
+    text-align: center;
+    margin-left: 20%;
+
+}
+.footer-description{
+    color: #777;
+    display: flex;
+}
